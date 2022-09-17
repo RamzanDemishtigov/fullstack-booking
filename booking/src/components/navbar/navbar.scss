@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+
+  .navbar__head {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+
+    .navbar__button {
+      margin-right: 1rem;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    .navbar__button:hover {
+      background-color: $button-second-color;
+      color: $bg-color;
+      border-radius: 7px;
+    }
+  }
+}

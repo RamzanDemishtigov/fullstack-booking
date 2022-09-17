@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap");
-@import './variables.scss';
+@import "./variables.scss";
 
 * {
   margin: 0;
@@ -10,5 +10,10 @@
 
 body {
   background-color: $bg-color;
+  #root {
+    background-color: $bg-second-color;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
 }
-
